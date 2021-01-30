@@ -15,4 +15,8 @@ public class Account {
   public String  password;
   public String  role;
 
+  public String  google2faSecretKey;
+  public Boolean google2faEnabled       = false;
+  public Boolean google2faAuthenticated = false;
+
 }
