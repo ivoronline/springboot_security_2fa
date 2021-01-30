@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootSecurity2faApplication {
+public class SpringbootDbauthenticationApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringbootSecurity2faApplication.class, args);
+    SpringApplication.run(SpringbootDbauthenticationApplication.class, args);
   }
 
 }
