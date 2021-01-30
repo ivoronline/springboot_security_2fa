@@ -82,7 +82,7 @@ public class MyController {
   // Hello
   //======================================================================
   @ResponseBody
-  @RequestMapping("/hello")
+  @RequestMapping("/Hello")
   public String sayHello() {
     return "Hello from Controller";
   }
