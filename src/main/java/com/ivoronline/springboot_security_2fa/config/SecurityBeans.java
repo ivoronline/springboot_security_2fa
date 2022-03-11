@@ -10,6 +10,9 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class SecurityBeans {
 
+  //=========================================================================
+  // GOOGLE AUTHENTICATOR
+  //=========================================================================
   @Bean
   public GoogleAuthenticator googleAuthenticator(ICredentialRepository credentialRepository){
 
