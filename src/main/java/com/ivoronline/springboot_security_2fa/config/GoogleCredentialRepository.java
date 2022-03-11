@@ -11,6 +11,7 @@ import java.util.List;
 @Component
 public class GoogleCredentialRepository implements ICredentialRepository {
 
+  //PROPERTIES
   private final AccountRepository accountRepository;
 
   //======================================================================

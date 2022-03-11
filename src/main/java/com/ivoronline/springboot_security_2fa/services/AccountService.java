@@ -16,9 +16,12 @@ import java.util.List;
 @Service
 public class AccountService implements UserDetailsService {
 
-  @Autowired
-  AccountRepository accountRepository;
+  //PROPERTIES
+  @Autowired AccountRepository accountRepository;
 
+  //=================================================================
+  // LOAD USER BY USERNAME
+  //=================================================================
   @Override
   public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 

@@ -12,11 +12,17 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+  //=================================================================
+  // PASSWORD ENCODER
+  //=================================================================
   @Bean
   PasswordEncoder passwordEncoder() {
     return NoOpPasswordEncoder.getInstance();
   }
 
+  //=================================================================
+  // CONFIGURE
+  //=================================================================
   @Override
   protected void configure(HttpSecurity httpSecurity) throws Exception {
 
