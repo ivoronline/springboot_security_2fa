@@ -9,12 +9,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MyController {
 
-  @Autowired
-  AccountRepository accountRepository;
+  //PROPERTIES
+  @Autowired AccountRepository accountRepository;
 
+  //=================================================================
+  // HELLO
+  //=================================================================
   @ResponseBody
-  @RequestMapping("/hello")
-  public String sayHello() {
+  @RequestMapping("Hello")
+  String Hello() {
     return "Hello from Controller";
   }
 
