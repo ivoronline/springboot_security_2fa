@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequiredArgsConstructor
 public class MyController {
 
+  //PROPERTIES
   private final AccountRepository   accountRepository;
   private final GoogleAuthenticator googleAuthenticator;
 

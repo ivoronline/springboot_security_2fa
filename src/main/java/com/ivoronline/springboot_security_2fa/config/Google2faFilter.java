@@ -20,9 +20,12 @@ import java.io.IOException;
 @Component
 public class Google2faFilter extends GenericFilterBean {
 
-  @Autowired
-  private AccountRepository accountRepository;
+  //PROPERTIES
+  @Autowired private AccountRepository accountRepository;
 
+  //=================================================================
+  // DO FILTER
+  //=================================================================
   @Override
   public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
